@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+        background-color: lightcyan;
+}
+.mainBody {
+    margin: 0px 50px;
+}
+.websiteHeader{
+    margin: 0px auto 0px auto;
+    padding-top: 55vh;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    /*text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;*/
+    font-family: 'Oswald', sans-serif;
+    
+}
+.pageHeader {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.headerBackground {
+    background-image: url("images/highlands.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /*width: 100vw;*/
+}
+.arrow {
+    content: "\2193";
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.center {
+    padding-top: 100px;
+    text-align: center;
+}
+ul.navBar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*width: max-content;*/
+    margin: 0 auto;
+    height: 100px;
+}
+ul.navBar > li {
+    float: left;
+    
+}
+ul.navBar > li > span {
+    display: block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px 16px;
+    text-decoration: none;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Aldrich', sans-serif;
+}
+ul.navBar > li > span:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+.row {
+    display: inline-block;
+    float: left;
+    margin: 20px 0;
+}
+.mainPara {
+    font-size: 35px;
+}
+.widget {
+    /*border: 2px #111 solid;*/
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0 20px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+.widget > h3, widget > p {
+    margin: 0;
+}
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3 {
+    font-family: 'Aldrich', sans-serif;
+}
+video {
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.videoHeader {
+    margin: 0 40px;
+}
+.grid-1-1{
+    width: 100%;
+}
+.grid-1-2 {
+    width: 50%;
+}
+.grid-1-3 {
+    width: 33.3%;
+}
+.grid-1-4 {
+    width: 25%;
+}
+.grid-1-5 {
+    width: 20%;
+}
+
+body{
+    /*background-color: turquoise;*/
+/*    background-image: url("castle.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;*/
+    margin: 0px;
+}
+
+.navSaber {
+    /*list-style-type: none;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    width: max-content;
+    margin: 0 auto;
+}
+.offset {
+    padding-top: 100vh;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.list {
+    font-size: 20px;
+}
+article > h3 {
+    margin: 0 20px;
+}
+a:link {
+    font-size: 20px;
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
